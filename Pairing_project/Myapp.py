@@ -203,13 +203,6 @@ def generate_exercises(num, range_limit):
 
     return exercises, answers
 
-import re
-import fractions
-
-import re
-import fractions
-
-# 替换 myapp.py 中原来的 parse_expression 为下面实现
 
 def parse_expression(expr):
     expr = expr.replace('×', '*').replace('÷', '/')
